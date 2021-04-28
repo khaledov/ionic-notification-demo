@@ -13,6 +13,24 @@ export class HomePage implements OnInit {
 
   async ngOnInit() {
     await LocalNotifications.requestPermission();
+    LocalNotifications.registerActionTypes({
+      types:[
+        {
+          id:"ADV_BTN",
+          actions:[
+            {
+              id:'view',
+              title:'Some Action'
+            },
+            {
+              id:'remove',
+              title: 'Dismiss',
+              destructive: true
+            }
+          ]
+        }
+      ]
+    });
   }
 
   async doSomeFun(){
@@ -22,12 +40,14 @@ export class HomePage implements OnInit {
           title: 'Just Demo',
           body: 'Wishing to you a good day',
           id:1,
-          iconColor: '#0000FF'
+          iconColor: '#C90000',
+          actionTypeId:'ADV_BTN'
         }
       ]
     })
   }
 
 
+ 
 
 }

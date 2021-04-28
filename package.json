@@ -6,6 +6,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "live":"ionic capacitor run android --livereload --external",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",

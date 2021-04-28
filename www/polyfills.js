@@ -181,8 +181,8 @@ module.exports = Object.setPrototypeOf || ('__proto__' in {} ? function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\Code\HOL\Ionic\notification-demo\src\polyfills.ts */"hN/g");
-module.exports = __webpack_require__(/*! D:\Code\HOL\Ionic\notification-demo\node_modules\@angular-devkit\build-angular\src\webpack\jit-polyfills.js */"rZy+");
+__webpack_require__(/*! D:\Code\HOL\Ionic\ionic-notification-demo\src\polyfills.ts */"hN/g");
+module.exports = __webpack_require__(/*! D:\Code\HOL\Ionic\ionic-notification-demo\node_modules\@angular-devkit\build-angular\src\webpack\jit-polyfills.js */"rZy+");
 
 
 /***/ }),

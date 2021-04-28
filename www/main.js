@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Code\HOL\Ionic\notification-demo\src\main.ts */"zUnb");
+module.exports = __webpack_require__(/*! D:\Code\HOL\Ionic\ionic-notification-demo\src\main.ts */"zUnb");
 
 
 /***/ }),
